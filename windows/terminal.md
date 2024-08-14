@@ -13,13 +13,13 @@ Paginas para descargar e istalar desde la terminal
 - Windows Terminal: Multiples terminales
 
 ```bash
-  winget install --id=Microsoft.WindowsTerminal  -e
+  winget install WindowsTerminal
 ```
 
 - PowerShell : Terminal actualizada de windows
 
 ```bash
-  winget install --id=Microsoft.PowerShell  -e
+  winget install PowerShell
 ```
 
 ## Temas para la terminal -> [Temas](./themes.md)
@@ -29,31 +29,36 @@ Paginas para descargar e istalar desde la terminal
 
 
 ```bash
-  winget install -e --id Starship.Starship
+  winget install starship
 ```
 
 **Para cmd se necesita Clink**
 
 ```bash
-  winget install -e --id Starship.Starship
+  winget install clink
 ```
 ## Zoxide
 ```bash
-  winget install --id=ajeetdsouza.zoxide  -e
+   winget install zoxide
 ```
+Variables de entorno widows por si no lo coloca e automatico
+```bash
+  C:\Users\usuario\AppData\Local\Microsoft\WinGet\Packages\ajeetdsouza.zoxide_Microsoft.Winget.Source_8wekyb3d8bbwe
+```
+
 ## LS Delux
 ```bash
-  winget install --id=lsd-rs.lsd  -e
+  winget install lsd
 ```
 
 ## Neo Vim
 ```bash
-  winget install --id=Neovim.Neovim  -e
+  winget install Neovim
 ```
 
 ## NVM
 ```bash
-  winget install --id=CoreyButler.NVMforWindows  -e
+  winget install --id=CoreyButler.NVMforWindows
 ```
 
 

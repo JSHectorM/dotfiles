@@ -1,8 +1,9 @@
 # Dotfiles
 
 Pasos para configurar mis diferetes entornos de trabajo
-- [Windows](./windows/terminal.md)
 - [Git](./git/gitCofig.md)
+- [Windows](./windows/terminal.md)
+- [Linux](./linux/terminal.md)
 <!-- - Osx -->
 <!-- - Linux -->
 

@@ -36,7 +36,7 @@ truncation_symbol = ''
 #ignore_branches = ['master', 'main']
 
 ```
-
+![Terminal Final](./linux/img/prompt.png)
 
 
 

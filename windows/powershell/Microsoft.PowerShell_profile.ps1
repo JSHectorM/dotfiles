@@ -23,8 +23,9 @@ function ExplorerOpen {
 New-Alias -Name open -Value ExplorerOpen -Description "Este es un alias para iniciar explorador"
 
 # * Alias para lsdelux
-Remove-Alias ls
-New-Alias -Name ls -Value lsd -Option AllScope
+#Remove-Alias ls
+#New-Alias -Name ls -Value lsd -Option AllScope
+Set-Alias -Name ls -Value lsd -Option AllScope
 
 function Start-VSCodeJavaScript {
     param (

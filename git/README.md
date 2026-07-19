@@ -1,11 +1,15 @@
-# Configuracion de git
-Comando para acceder a la configuracion
+# Configuración de Git
+
+Comando para acceder a la configuración global:
 ```sh
     git config --global -e
 ```
 
-Configuracion de git personal
-```bash
+El archivo real versionado está en [home/.gitconfig](home/.gitconfig) y se enlaza a `~/.gitconfig` mediante Stow.
+
+## Configuración personal (referencia)
+
+```ini
 [user]
         name = Hector JS
         email = jshectorm@gmail.com
@@ -19,3 +23,5 @@ Configuracion de git personal
         process = git-lfs filter-process
         required = true
 ```
+
+> Si versionas tu propio `~/.gitconfig` desde este repo, sanitiza la sección `[user]` (o usa `~/.gitconfig.local` incluido en `.gitignore`) para no filtrar datos personales.

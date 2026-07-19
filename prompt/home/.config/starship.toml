@@ -1,0 +1,18 @@
+#~/.config/starship.toml
+
+right_format = "$time"
+
+[time]
+disabled = false
+style = "bold bright-black"
+format = "[$time]($style)"
+
+[line_break]
+disabled = true
+
+[git_branch]
+symbol = '🌱 '
+#truncation_length = 8
+truncation_symbol = ''
+#ignore_branches = ['master', 'main']
+

@@ -1,0 +1,20 @@
+tap "anomalyco/tap"
+# Fast and simple Node.js version manager
+brew "fnm"
+# Clone of ls with colorful output, file type icons, and more
+brew "lsd"
+# Cross-shell prompt for astronauts
+brew "starship"
+# The AI coding agent built for the terminal.
+brew "anomalyco/tap/opencode", trusted: true
+# App to build and share containerised applications and microservices
+cask "docker-desktop"
+cask "font-caskaydia-cove-nerd-font"
+cask "font-jetbrains-mono-nerd-font"
+# Rust-based terminal
+cask "warp"
+vscode "enkia.tokyo-night"
+vscode "miguelsolorio.fluent-icons"
+vscode "ms-ceintl.vscode-language-pack-es"
+vscode "pkief.material-icon-theme"
+npm "corepack"

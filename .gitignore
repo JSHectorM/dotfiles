@@ -1,1 +1,5 @@
 .idea
+*.bak
+.stow-fail
+editor/nvim/home/.config/nvim/lazy-lock.json
+.gitconfig.local

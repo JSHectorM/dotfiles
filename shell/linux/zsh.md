@@ -1,12 +1,6 @@
-# Terminal Linux
+# ZSH en Linux (Ubuntu)
 
-Para el caso de ubuntu 
-
-- ### [NVIM](./nvim.md)
-- ### [Fast Node Manager](./nvim.md)
-
-## ZSH
-Istalar zsh y cambiarlo de bash -> zsh
+## Instalar zsh y cambiarlo de bash -> zsh
 ```sh
     sudo apt install zsh -y
 ```
@@ -18,22 +12,19 @@ Cambiar a zsh por defecto.
 ```sh
     chsh -s $(which zsh)
 ```
-## Instalar  oh my zsh
-Descargar repositario
 
+## Instalar oh my zsh
+Descargar repositorio
 ```sh
    sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-
-## Instalar pluggins
+## Instalar plugins
 
 ### zsh-syntax-highlighting
+- Repo de origen -> [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
- - Repo de origen ->[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-
- Se clona el repo dentro de los pluggins en ZSH
-
+Se clona el repo dentro de los plugins en ZSH
 ```sh
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
@@ -43,11 +34,9 @@ Se agrega dentro del archivo de configuración `~/.zshrc`
 ```
 
 ### ZSH-AutoSuggestion
+- Repo de origen -> [ZSH-AutoSuggestion](https://github.com/zsh-users/zsh-autosuggestions)
 
- -  Repo de origen ->[ZSH-AutoSuggestion](https://github.com/zsh-users/zsh-autosuggestions)
-
-  Se clona el repo dentro de los pluggins en ZSH
-
+Se clona el repo dentro de los plugins en ZSH
 ```sh
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 ```
@@ -57,14 +46,4 @@ Se agrega dentro del archivo de configuración `~/.zshrc`
    plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 ```
 
-## Prompt 🚀
-Descarga del prompt
-```sh
-   curl -sS https://starship.rs/install.sh | sh
-```
-
-Se agrega dentro del archivo de configuración `~/.zshrc`
-```sh
-   eval "$(starship init zsh)"
-```
-### Configuracion del prompt en [Readme](../README.md)
+> La configuración del prompt (Starship) se documenta en [../../prompt/README.md](../../prompt/README.md).

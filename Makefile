@@ -2,8 +2,8 @@ STOW ?= stow
 DOTFILES_DIR := $(abspath $(dir $(lastword $(MAKEFILE_LIST))))
 
 # Paquetes Stow comunes a Linux y macOS
-MACOS_PKGS := git shell/macos/home prompt/home editor/nvim/home
-LINUX_PKGS := git shell/linux/home prompt/home editor/nvim/home
+MACOS_PKGS := git/home shell/macos/home prompt/home editor/nvim/home
+LINUX_PKGS := git/home shell/linux/home prompt/home editor/nvim/home
 
 .PHONY: help link-macos link-linux link-windows unlink-macos unlink-linux unlink-windows check
 

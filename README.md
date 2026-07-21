@@ -5,15 +5,14 @@ Notas y configuración de mis entornos de trabajo: Linux (Ubuntu), macOS y Windo
 ## Índice por herramienta
 
 | Herramienta | Linux | macOS | Windows |
-|-------------|------:|------:|--------:|
-| [Git](git/README.md)                 | ✓ | ✓ | ✓ |
-| [Shell](shell/README.md)             | [zsh](shell/linux/zsh.md) | [zsh](shell/macos/zsh.md) | [powershell](shell/windows/powershell.md) · [cmd](shell/windows/cmd.md) · [wsl](shell/windows/wsl.md) · [temas](shell/windows/themes.md) |
+|---|:---:|:---:|:---:|
+| [Git](git/README.md) | ✓ | ✓ | ✓ |
+| [Shell](shell/README.md) | [zsh](shell/linux/zsh.md) | [zsh](shell/macos/zsh.md) | [powershell](shell/windows/powershell.md)<br>[cmd](shell/windows/cmd.md)<br>[wsl](shell/windows/wsl.md)<br>[temas](shell/windows/themes.md) |
 | [Prompt (Starship)](prompt/README.md) | [install](prompt/linux/install.md) | [install](prompt/macos/install.md) | [install](prompt/windows/install.md) |
 | [Editor: Neovim](editor/nvim/README.md) | [install](editor/nvim/linux/install.md) | [install](editor/nvim/macos/install.md) | — |
 | [Editor: VS Code](editor/vscode/README.md) | — | — | [perfiles](editor/vscode/windows/profiles.md) |
-| [Node: fnm](node/fnm/linux/install.md) | ✓ | [macOS](node/fnm/macos/install.md) | — |
-| [Node: nvm](node/nvm/windows/install.md) | — | — | ✓ |
-| [Gestores de paquetes](pkgmanagers/) | [apt](pkgmanagers/linux/apt.md) | [brew](pkgmanagers/macos/README.md) · [Brewfile](pkgmanagers/macos/Brewfile) | [winget](pkgmanagers/windows/winget.md) |
+| Node (fnm / nvm) | [fnm](node/fnm/linux/install.md) | [fnm](node/fnm/macos/install.md) | [nvm](node/nvm/windows/install.md) |
+| [Gestores de paquetes](pkgmanagers/) | [apt](pkgmanagers/linux/apt.md) | [brew](pkgmanagers/macos/README.md)<br>[Brewfile](pkgmanagers/macos/Brewfile) | [winget](pkgmanagers/windows/winget.md) |
 
 ## Despliegue
 

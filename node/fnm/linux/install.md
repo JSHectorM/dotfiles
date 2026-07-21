@@ -1,6 +1,6 @@
-# Fast Node Manager ([fnm](https://github.com/Schniz/fnm))
+# fnm — Instalación en Linux
 
-Gestor de versiones de Node.js rápido y sencillo, escrito en Rust.
+> Descripción común: [../README.md](../README.md).
 
 ## Instalación en Linux (Ubuntu)
 
@@ -19,4 +19,4 @@ Inicialización en `~/.zshrc` (si usas el script de vercel.app suele añadirla a
     eval "$(fnm env --use-on-cd)"
 ```
 
-> En macOS: [../macos/install.md](../macos/install.md). En Windows: [../../nvm/windows/install.md](../../nvm/windows/install.md).
+> En macOS: [../macos/install.md](../macos/install.md).

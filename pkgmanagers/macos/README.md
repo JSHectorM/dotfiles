@@ -21,7 +21,7 @@ brew bundle dump --file=dotfiles/pkgmanagers/macos/Brewfile --force
 ```
 
 ## Fórmulas y casks referenciadas en las guías
-- `starship`, `neovim`, `fnm`, `lsd`, `zoxide`, `stow` → fórmulas.
+- `starship`, `neovim`, `fnm`, `lsd`, `mole`, `zoxide`, `stow` → fórmulas.
 - `iterm2`, `visual-studio-code` → casks.
 
 > Las apps GUI se instalan como casks; las de CLI como fórmulas. `brew bundle` distingue automáticamente según la sección del Brewfile.

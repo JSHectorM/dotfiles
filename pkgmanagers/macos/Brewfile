@@ -3,6 +3,8 @@ tap "anomalyco/tap"
 brew "fnm"
 # Clone of ls with colorful output, file type icons, and more
 brew "lsd"
+# Deep clean and optimize your Mac
+brew "mole"
 # Cross-shell prompt for astronauts
 brew "starship"
 # The AI coding agent built for the terminal.

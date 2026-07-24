@@ -11,6 +11,7 @@ Notas y configuración de mis entornos de trabajo: Linux (Ubuntu), macOS y Windo
 | [Prompt (Starship)](prompt/README.md) | [install](prompt/linux/install.md) | [install](prompt/macos/install.md) | [install](prompt/windows/install.md) |
 | [Editor: Neovim](editor/nvim/README.md) | [install](editor/nvim/linux/install.md) | [install](editor/nvim/macos/install.md) | — |
 | [Editor: VS Code](editor/vscode/README.md) | — | — | [perfiles](editor/vscode/windows/profiles.md) |
+| [Agentes IA (Claude Code / opencode)](aicode/README.md) | [claude](aicode/claude/linux/install.md)<br>[opencode](aicode/opencode/linux/install.md) | [claude](aicode/claude/macos/install.md)<br>[opencode](aicode/opencode/macos/install.md) | [claude](aicode/claude/windows/install.md)<br>[opencode](aicode/opencode/windows/install.md) |
 | Node (fnm / nvm) | [fnm](node/fnm/linux/install.md) | [fnm](node/fnm/macos/install.md) | [nvm](node/nvm/windows/install.md) |
 | [Gestores de paquetes](pkgmanagers/) | [apt](pkgmanagers/linux/apt.md) | [brew](pkgmanagers/macos/README.md)<br>[Brewfile](pkgmanagers/macos/Brewfile) | [winget](pkgmanagers/windows/winget.md) |
 
@@ -44,6 +45,8 @@ Copia:
 - `shell/macos/home/.zshrc`, `shell/linux/home/.zshrc` — `.zshrc` por SO.
 - `prompt/home/.config/starship.toml` — configuración común de Starship.
 - `editor/nvim/home/.config/nvim/` — configuración de LazyVim (pendiente de añadir).
+- `aicode/claude/home/.claude/settings.json` — preferencias de Claude Code.
+- `aicode/opencode/home/.config/opencode/opencode.json` — configuración de opencode.
 - `pkgmanagers/macos/Brewfile` — apps CLI+GUI del autor.
 
 ## Fuentes externas

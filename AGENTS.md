@@ -4,7 +4,7 @@ Repositorio de dotfiles: guías en Markdown + archivos reales de configuración 
 
 ## Organización: por herramienta, no por SO
 
-Cada carpeta top-level es una herramienta: `git/`, `shell/`, `prompt/`, `editor/`, `node/`, `pkgmanagers/`. Dentro suelen existir subcarpetas `linux/`, `macos/`, `windows/` con guías por SO, y una carpeta `<so>/home/` (o `home/` común) que es el paquete Stow con la ruta real relativa a `$HOME`. **No** separar por SO en el nivel superior.
+Cada carpeta top-level es una herramienta: `git/`, `shell/`, `prompt/`, `editor/`, `aicode/`, `node/`, `pkgmanagers/`. Dentro suelen existir subcarpetas `linux/`, `macos/`, `windows/` con guías por SO, y una carpeta `<so>/home/` (o `home/` común) que es el paquete Stow con la ruta real relativa a `$HOME`. **No** separar por SO en el nivel superior.
 
 ## Despliegue (alto riesgo de confundirse)
 
